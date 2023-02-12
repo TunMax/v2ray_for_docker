@@ -1,4 +1,4 @@
 :80 {
-reverse_proxy /vmesswss 127.0.0.1:10000
+reverse_proxy /dopraxwss 127.0.0.1:10000
 }
 
