@@ -1,4 +1,8 @@
-:80 {
-reverse_proxy /vmesswss 127.0.0.1:10000
+{
+    admin off
+}
+
+:7860 {
+    reverse_proxy * 127.0.0.1:10000
 }
 

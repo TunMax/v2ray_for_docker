@@ -1,2 +1,3 @@
+#!/bin/bash
 /bz/caddy start --config /bz/Caddyfile
-/bz/v2ray -config /bz/config.json
+exec /bz/v2ray -config /bz/config.json
