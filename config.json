@@ -3,20 +3,19 @@
     "inbounds": [{
             "port": 10000,
             "listen": "127.0.0.1",
-            "protocol": "vmess",
+            "protocol": "trojan",
             "settings": {
                 "clients": [{
-                        "id": "100d9452-8354-4545-a129-50993ce40e19",
-                        "level": 0,
-                        "alterId": 0
+                        "password": "thisispassword",
+                        "email": "love@v2fly.org",
+                        "level": 0
                     }
-                ],
-                "disableInsecureEncryption": true
+                ]
             },
             "streamSettings": {
                 "network": "ws",
                 "wsSettings": {
-                    "path": "/vmesswss"
+                    "path": "/"
                 }
             }
         }

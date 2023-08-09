@@ -1,5 +1,5 @@
-# v2ray_for_doprax
+# v2ray_for_Huggingface
 
-自用在doprax搭建v2ray节点配置，Caddy+V2ray实现。
+在Huggingface搭建v2ray节点配置，Caddy+V2ray实现
 
-类似配置教程，参见：https://youtu.be/p76SC2GBT0s
+需修改密码见config.json
