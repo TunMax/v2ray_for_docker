@@ -3,14 +3,15 @@
     "inbounds": [{
             "port": 10000,
             "listen": "127.0.0.1",
-            "protocol": "trojan",
+            "protocol": "vmess",
             "settings": {
                 "clients": [{
-                        "password": "thisispassword",
-                        "email": "love@v2fly.org",
-                        "level": 0
+                        "id": "8964a057-3351-4252-bf94-854611749188",
+                        "level": 0,
+                        "alterId": 0
                     }
-                ]
+                ],
+                "disableInsecureEncryption": true
             },
             "streamSettings": {
                 "network": "ws",
